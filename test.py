@@ -15,6 +15,9 @@ class testCaseAdd(unittest.TestCase):
     def test_3(self):
         self.assertEqual(calc.mult(5, 3), 15)
 
+    def test_4(self):
+        self.assertEqual(calc.divide(6, 2), 3)
+
 
 if __name__ == '__main__':
     unittest.main()
